@@ -108,3 +108,7 @@ function Display (number){
 		screen.value = scr_value;
 	}
 }
+function fullScreen(){
+	var elem = document.documentElement;
+	elem.requestFullscreen();
+}
